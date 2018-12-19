@@ -98,13 +98,6 @@
     </profile>
   </profiles>
   
-  <repositories>
-    <repository>
-      <id>local</id>
-      <url>file://${basedir}/lib</url>
-    </repository>
-  </repositories>
-  
   <dependencies>
   
     <!--  Common package for basic operations -->
@@ -126,7 +119,6 @@
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
       <version>42.2.5</version>
-      <type>bundle</type>
     </dependency>
   
     <dependency>
